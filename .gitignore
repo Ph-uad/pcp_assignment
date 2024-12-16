@@ -5,7 +5,7 @@ __pycache__/
 
 .DS_Store
 cleanedData/
-dataset/
+data/
 
 # C extensions
 *.so
