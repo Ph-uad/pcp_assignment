@@ -1,8 +1,8 @@
-def load_dataset_module(file):
+def load_dataset_module(file_path):
     cleaned_data = []
     keys = []
 
-    with open(file, 'r') as file:
+    with open(file_path, 'r') as file:
         keys = file.readline().rstrip('\n').split(',')
         
         for line in file:        

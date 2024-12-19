@@ -1,9 +1,9 @@
 def statistics_module(arr, parameter, options):
     
     data = []
-    # createw a list from the data of parameter in the array
+    # create a list from the data of parameter in the array
     for obj in arr:
-         data.append(eval(obj[parameter.lowwer()]))
+         data.append(eval(obj[parameter.lower()]))
     
     if(options =='minimum_value' or options.lower() == 'minimum value' or options == 2):
         return min(data)
